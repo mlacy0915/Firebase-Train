@@ -2,11 +2,8 @@
 <html lang="en">
   <head>
     <title>Title</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <link rel="JavaScript" href="./java.js">
@@ -27,38 +24,38 @@
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">Train Name</th>
-                    <th scope="col">Destination</th>
-                    <th scope="col">Frequency (min)</th>
-                    <th scope="col">Next Arrival</th>
-                    <th scope="col">Minutes Away</th>
+                    <th scope="col" id="Name">Train Name</th>
+                    <th scope="col" id="Destination">Destination</th>
+                    <th scope="col" id="Time">Frequency (min)</th>
+                    <th scope="col" id="Frequency">Next Arrival</th>
+                    <th scope="col" id="MinutesAway">Minutes Away</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">---</th>
+                    <!-- <th scope="row">---</th>
                     <td>----</td>
                     <td>----</td>
                     <td>----</td>
-                    <td>----</td>
+                    <td>----</td> -->
                   </tr>
                   <tr>
-                    <th scope="row">---</th>
+                    <!-- <th scope="row">---</th>
                     <td>----</td>
                     <td>----</td>
                     <td>----</td>
-                    <td>----</td>
+                    <td>----</td> -->
                   </tr>
                   <tr>
-                    <th scope="row">---</th>
+                    <!-- <th scope="row">---</th>
                     <td>----</td>
                     <td>----</td>
                     <td>----</td>
-                    <td>----</td>
+                    <td>----</td> -->
                   </tr>
                 </tbody>
               </table>
-            <footer class="blockquote-footer"><cite title="Source Title">Source Title</cite></footer>
+            <footer class="blockquote-footer"><cite title="Source Title"></cite></footer>
           </blockquote>
         </div>
       </div>
@@ -71,19 +68,19 @@
             <form>
                 <div class="form-group">
                   <label for="formGroupExampleInput">Train Name</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Train Name">
+                  <input type="text" class="form-control"  id="Name" placeholder="Train Name">
                 </div>
                 <div class="form-group">
                   <label for="formGroupExampleInput2">Destination</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Destination">
+                  <input type="text" class="form-control" id="Destination" placeholder="Destination">
                 </div>
                 <div class="form-group">
                     <label for="formGroupExampleInput2">First Train Time (HH:mm-military time)</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="HH:mm-military time">
+                    <input type="text" class="form-control" id="Time" placeholder="HH:mm-military time">
                   </div>
                   <div class="form-group">
                     <label for="formGroupExampleInput2">Frequency (min)</label>
-                    <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Frequency">
+                    <input type="text" class="form-control" id="Frequency" placeholder="Frequency">
                   </div>
                   <button type="submit" class="btn btn-primary">Submit</button>
               </form>
