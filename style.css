@@ -1,0 +1,21 @@
+body {
+    background-image: url("./82675299-vintage-wood-floor-on-shadow-background-mystery-and-secret-concept.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.jumbotron {
+    background-image: url("./railway-track-on-bridge-blurredspeed-260nw-210418510.webp");
+    background-repeat: no-repeat;
+    background-size: 1333px 268px;
+    text-align: center;
+    color: whitesmoke;
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 20px;
+}
+
+.card {
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 20px;
+}
